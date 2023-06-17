@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub)
+-   Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-landing-page-with-html-tailwindcss-and-vite-JBlMlr71kP](https://www.frontendmentor.io/solutions/base-apparel-landing-page-with-html-tailwindcss-and-vite-JBlMlr71kP)
 -   Live Site URL: [https://base-apparel-coming-soon-ndc.netlify.app/](https://base-apparel-coming-soon-ndc.netlify.app/)
 
 ## My process
