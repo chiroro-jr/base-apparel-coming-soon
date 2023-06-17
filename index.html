@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+
+<body class="font-josefin">
+
+  <header class="h-screen lg:grid-header">
+    <div class="py-6 px-10 lg:px-40 lg:py-12 lg:col-[1/2] lg:row-[1/2] lg:z-10">
+      <img class="w-32 lg:w-36" src="./images/logo.svg" alt="logo image">
+    </div>
+    <div class="lg:col-[2/-1] lg:row-[1/-1] lg:z-10">
+      <!-- header - mobile -->
+      <img src="./images/hero-mobile.jpg" alt="" class="block lg:hidden w-full">
+
+      <!-- header - desktop -->
+      <img src="./images/hero-desktop.jpg" class="hidden lg:block w-full h-full">
+    </div>
+
+    <div class="pt-14 pb-10 px-10 lg:px-40 space-y-3 lg:py-20 lg:col-[1/2] lg:row-[2/3] lg:max-w-[45rem] lg:z-10">
+      <h1
+        class="text-center text-red-grayish font-semibold text-[2.375rem] lg:text-7xl lg:text-start leading-[1em] uppercase tracking-[.3em]">
+        <span class="text-red-soft font-light">We're</span><br>
+        coming<br>
+        soon
+      </h1>
+      <p class="text-center text-red-soft text-sm lg:text-base lg:text-start">Hello fellow shoppers! We're
+        currently
+        building our new fashion
+        store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form class="grid-form pt-5">
+        <div class="col-[1/-1] row-[1/2] relative">
+          <input
+            class="border-2 border-red-soft/40 text-red-soft/40 outline-none rounded-3xl px-5 py-2.5 focus:border-red-desaturated/50 focus:invalid:border-red-desaturated placeholder:text-sm placeholder:text-red-soft/60 invalid:border-red-desaturated block w-full transition-all duration-300"
+            type="email" name="email" id="email" placeholder="Email Address">
+          <img src="./images/icon-error.svg"
+            class="error-icon | absolute right-24 top-1/2 -translate-y-1/2 opacity-0 invisible transition-all duration-300"
+            alt="">
+          <p
+            class="error-text | absolute text-red-desaturated text-sm left-0 right-0 px-5 -bottom-6 opacity-0 invisible transition-all duration-300">
+            Please
+            provide a valid email</p>
+        </div>
+        <button type="button" title="sign up"
+          class="bg-dark-gradient py-2 px-8 rounded-3xl col-[2/-1] row-[1/2] shadow-lg shadow-red-soft/60 hover:shadow-xl hover:shadow-red-soft hover:opacity-80 transition-all duration-200 z-10">
+          <img src="./images/icon-arrow.svg" alt="">
+        </button>
+      </form>
+    </div>
+    <footer
+      class="text-xs lg:text-sm  text-red-grayish/80 text-center lg:col-[1/2] lg:row-[3/-1] lg:text-start lg:px-40 lg:z-10 py-2 fixed bottom-0 left-0 right-0 lg:static">
+      <p>
+        Challenge by <a class="text-red-soft hover:underline transition-all duration-200"
+          href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a class="text-red-soft hover:underline transition-all duration-200"
+          href="https://www.frontendmentor.io/profile/chiroro-jr">Nyasha D. Chiroro</a>.
+      </p>
+    </footer>
+    <!-- decoration -->
+    <div class="row-[1/-1] col-[1/2] hidden lg:block bg-light-gradient">
+      <img class="w-full h-full block" src="./images/bg-pattern-desktop.svg" alt="">
+    </div>
+  </header>
+</body>
+
+</html>
